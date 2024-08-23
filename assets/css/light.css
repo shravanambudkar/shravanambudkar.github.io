@@ -36,6 +36,19 @@ h1, h2, h3, h4, b {
 .link-dark:hover {
 	color: #1c1e20 !important;
 }
+/* Define the new class link-dark-nou */
+.link-dark-nou {
+    color: #212529 !important; /* Same color as link-dark */
+    text-decoration: none !important; /* No underline */
+	font-style: italic
+}
+
+.link-dark-nou:hover, .link-dark-nou:focus {
+    color: #1c1e20 !important; /* Same hover effect as link-dark */
+    text-decoration: none !important; /* Ensure no underline on hover/focus */
+	font-style: italic
+}
+
 
 /* OPTION BUTTON */
 .options-button {
